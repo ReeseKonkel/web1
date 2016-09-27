@@ -1,0 +1,36 @@
+
+body {
+    background-color: #2D2C6A;
+}
+h1 {
+  color: gray; 
+  background-color: #AEF3E2;
+  font-weight: bold;
+  
+}
+p {
+ background-color: #666666;
+ color: #ffffff;
+}
+.og {
+   font-size: 30px;
+   font-family: "roboto slab","monsterrat", arial, sans-serif;
+   border: 4px double #D29FFD;
+   border-left: 4px double #6295C3;
+   border-right: 4px double #6295C3;
+   font-weight: normal;
+}
+.ya {
+   font-size: 20px;
+   font-family: "helvetica", sans-serif;
+   text-decoration: underline;
+   font-style: italic;
+   color: #F8E14B;
+   text-align: center;
+}
+.nah {
+    font-size: 15px;
+    padding: 30px;
+    margin: 60px;
+    border: 5px solid #A1AC88;
+}
