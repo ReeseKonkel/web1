@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhai';
+@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+body {
+  background-color: #3399cc;    
+}
+.large {
+    color: #ffffff;
+    font-size: 75px;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    width: 800px;
+    border: 1px solid yellow;
+    line-height: 2em;
+    text-decoration: underline;
+}
+.large:hover {
+    color: yellow;
+    transition: color 2s ease;
+}
+.small {
+    color: #ffffff;
+    font-size: 65px;
+    font-family: 'Yatra One', cursive;
+}
+.ya {
+  color: #efefef;
+  font-size: 35px;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0);
+  padding: 10px 20px 10px 20px;
+  text-transform: uppercase;
+  margin: 0 30px;
+  transition: all .5s linear;
+  letter-spacing: 0.1em; 
+}
+.ya:hover {
+  border-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
