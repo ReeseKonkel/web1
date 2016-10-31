@@ -1,8 +1,13 @@
 /*
  General Styling
 */
+@import 'https://
+fonts.googleapis.com/css?
+family=Cormorant:300|Roboto: 100i,
+300,400,400i,700';
+
 body {
-   font-family: arial, sans-serif;
+   font-family: roboto, arial, sans-serif;
    font-weight: 400;
    background-color: #f1f1f1;
    color: #333;
@@ -56,27 +61,57 @@ a.hero-card-link:hover {
  Navigation
 */
 .main-nav {
+   max-width: 960px;
    margin: 20px auto;
+   text-align: right;
 }
 a.nav-link {
+   box-sizing: border-box;
    color: #fff;
    text-decoration: none;
+   height: 40px;
+   line-height: 38px;
    font-size: 20px;
+   font-family: Cormorant,cursive;
+   display: inline-block;
    margin: 10px 5px;
-   padding: 10px 15px;
+   padding: 0 15px;
+   border-radius: 20px;
    border: 2px solid rgba(255,255,255,0);
+   transition: all 0.2s ease;
 }
 a.nav-link:hover {
    color: #ffd86b;
    border-color: #ffd86b;
+   background-color: rgba(0,0,0,0.4);
+}
+#logo{
+   float: left;
+   margin-right: 100px;
+   width: 0;
+   height: 0;
+   color: rgba(255,255,255,0);
+   padding: 60px 160px 0 0;
+   background-image: url('images/logo.png');
+   background-size: 120px 60px;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 3px;
+   transition: all 0.2s ease;
+}
+#logo:hover{
+   background-color: rgba(0,0,0,0.4);
 }
 /*
  Main Content
 */
 .main-content {
-   padding: 20px;
-   text-align: center;
+   margin: 50px auto;
+   width: 960px;
    background-color: white;
+}
+.clear {
+   clear: both;
 }
 /*
  Footer
