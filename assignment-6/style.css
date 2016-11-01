@@ -116,7 +116,6 @@ a.nav-link:hover {
 .main-content {
    margin: 50px auto;
    width: 960px;
-   background-color: white;
 }
 .clear {
    clear: both;
@@ -201,7 +200,23 @@ About
 /*
 Assignments
 */
-.assignment-list{
+#assignments .hero {
+   background-image: url('images/coast.jpg');
+}
+.assignment-list dt {
+   margin-top: 20px;
+}
+.assignment-list a {
+   color: #3c8bce;
+   font-size: 18px;
+}
+assignment-list a:hover {
+   color: #115690;
+}
+assignment-list dd {
+   margin-left: 0;
+}
+.assignment-list {
    border: 4px solid #ddd;
    padding: 20px;
    margin: 20px auto;
@@ -210,24 +225,42 @@ Assignments
 /*
 Coffee
 */
+#coffee .hero {
+   background-image: url('images/coffee.jpg');
+}
 .coffee-quote{
    font-size: 30px;
-   color: #16445f;
-}
-.menu{
-   border:4px solid #ddd;
-   text-align: left;
    padding: 20px;
+   margin: 20px 15px;
+   color: #16445f;
+   border-left: 5px solid #d69e00;
 }
-dt{
-   font-size: 20px;
-   font-weight: bold;
-   margin-bottom: 20px;
-}
-dd{
+cite {
+   display: block;
    color: #666;
-   margin-left: 20px;
-   margin-bottom: 20px;
+   font-size: 16px;
+}
+.menu th {
+   padding: 10px;
+}
+.menu .size {
+   min-width: 150px;
+   text-align: right;
+   font-size: 14px;
+}
+.menu td {
+   padding: 10px 10px;
+   vertical-align: top;
+   text-align: right;
+}
+.menu dd {
+   margin-left: 0;
+   color: #666;
+   font-style: italic;
+   font-size: left;
+}
+.menu .label {
+   text-align: left;
 }
 /*
 Search
@@ -238,5 +271,16 @@ Search
    background-color: #ddd;
    margin: 20px auto;
    padding: 20px;
+}
+#search .hero {
+   background-image:url('images/sky.jpg');
+}
+.search-form {
+   background-color: #ffffff;
+   box-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+   padding: 40px;
+}
+label {
+   margin-right: 10px;
 }
 
