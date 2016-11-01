@@ -51,7 +51,7 @@ a:hover {
    font-weight: 300;
    margin: 20px 0;
 }
-a.hero-card-link {
+.hero-card-link {
    text-decoration: none;
    color: #efefef;
    font-size: 18px;
@@ -61,7 +61,7 @@ a.hero-card-link {
    display: inline-block;
    transition: all 0.2s ease;
 }
-a.hero-card-link:hover {
+.hero-card-link:hover {
    color: #d69e00;
    border-color: #d69e00;
 }
@@ -141,6 +141,9 @@ footer {
 /*
  Home
 */
+#home .hero {
+   background-image: url('images/ocean.jpg');
+}
 .card{
    background-color: #fff;
    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
@@ -170,6 +173,9 @@ footer {
 /*
 About
 */
+#about .hero {
+   background-image: url('images/blueberries.jpg');
+}
 .about-photo {
    width: 200px;
    height: 200px;
