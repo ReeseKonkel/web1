@@ -283,4 +283,21 @@ Search
 label {
    margin-right: 10px;
 }
+input {
+   border: 1px solid #ddd;
+   height: 30px;
+   width: 630px;
+   font-size: 14px;
+   padding: 0 10px;
+}
+button {
+   background-color: #3c8bce;
+   height: 32px;
+   margin-left: 10px;
+   padding: 0 20px;
+   border: 0;
+   color: #fff;
+   font-size: 14px;
+   border-radius: 3px;
+}
 
