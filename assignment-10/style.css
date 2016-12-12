@@ -36,12 +36,12 @@ a:hover {
    color: #efefef;
    margin: 110px auto 60px auto;
    padding: 50px;
-   max-width: 960px;
+   max-width: auto;
    text-align: center;
    box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
 }
 .hero-card-title {
-   font-family: georgia, serif;
+   font-family: Graphik, regular;
    margin: 0;
    font-size: 50px;
 }
@@ -146,14 +146,14 @@ footer {
    background-image: url('images/ocean.jpg');
 }
 .card{
-   background-color: #fff;
+   background-color: black;
    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
    width: calc(33.3%-20px);
-   min-height: 310px;
+   min-height: 70px;
    margin: 10px;
    float: left;
    text-decoration: none;
-   color: #333;
+   color: white;
    transition: all .2s ease;
 }
 .card:hover {
@@ -163,7 +163,7 @@ footer {
 .card-title{
    padding: 0 20px;
    margin: 20px 0 10px 0;
-   font-family: Cormorant, cursive;
+   font-family: Graphik, regular;
    font-size: 24px;
 }
 .card-description{
@@ -301,5 +301,13 @@ button {
    color: #fff;
    font-size: 14px;
    border-radius: 3px;
+}
+/*
+Text
+*/
+.side {
+   display: inline-block;
+   font-family: Graphik,light;
+   padding: 100px;
 }
 
