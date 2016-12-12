@@ -7,7 +7,7 @@ family=Cormorant:300|Roboto: 100i,
 300,400,400i,700';
 
 body {
-   font-family: roboto, arial, sans-serif;
+   font-family: Graphik, light, sans-serif;
    font-weight: 400;
    background-color: #f1f1f1;
    color: #333;
@@ -18,7 +18,7 @@ a, a:visited {
    color: #d69e00;
 }
 a:hover {
-   color: #e4b532;
+   color: white;
 }
 /*
  Hero
@@ -91,8 +91,8 @@ a.nav-link {
    transition: all 0.2s ease;
 }
 a.nav-link:hover {
-   color: #ffd86b;
-   border-color: #ffd86b;
+   color: white;
+   border-color: white;
    background-color: rgba(0,0,0,0.4);
 }
 #logo{
