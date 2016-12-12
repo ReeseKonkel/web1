@@ -90,21 +90,21 @@ a.nav-link:hover {
    border-color: white;
    background-color: rgba(0,0,0,0.4);
 }
-#logo{
+.logo{
    float: left;
    margin-right: 100px;
    width: 0;
    height: 0;
-   color: rgba(255,255,255,0);
+   color: white;
    padding: 60px 160px 0 0;
-   background-image: url('images/logo.png');
+   background-image: url('images/logo1.jpg');
    background-size: 120px 60px;
    background-position: center;
    background-repeat: no-repeat;
    border-radius: 3px;
    transition: all 0.2s ease;
 }
-#logo:hover{
+.logo:hover{
    background-color: rgba(0,0,0,0.4);
 }
 /*
@@ -172,4 +172,6 @@ Text
    padding: 20px 50px;
    background: white;
 }
-
+.bottom {
+   background-color:white;
+}
